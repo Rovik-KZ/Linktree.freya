@@ -1,0 +1,105 @@
+ * {
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-family: 'Bebas Neue', kursif;
+}
+
+
+.container {
+  max-width: 1100px ; /*max-width*/ /*1100px*/
+  margin:0 auto;
+  height:100vmax; /*120vh*/ /*900px*/ /*3000px*/
+  
+  background-image: url("gambar4.jpg");
+  background-position: center;
+  background-size: cover ; 
+  background-attachment:fixed;
+ 
+ 
+}
+.profile {
+  padding-top:40%;
+  display:flex; 
+  flex-direction: column ; 
+ /* padding:15px; */
+ justify-content: center; 
+ 
+  align-items: center; /* center*/
+}
+
+
+
+.profile>img {
+ 
+  width:150px;
+  height: 150px;
+  border:3px solid black;
+  border-radius:100%;
+  
+}
+
+
+.profile>p {
+  padding-top:20px;
+  font-size:2em;
+  font-weight:900;
+  letter-spacing: 2px;
+  text-transform:capitalize;
+  text-align:center; 
+  color:white;
+  
+}
+
+
+
+.link {
+ 
+ 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:20px; 
+ 
+  
+}
+
+.link> a {
+ text-decoration:none;
+ color:black;
+ font-size: 24px;
+ text-align: center;
+ border:5px solid #222;
+ border-radius:7px;
+ background-color: white;
+ margin:8px 10px;
+ padding:15px;
+ text-transform: uppercase;
+ font-weight:500;
+ transition:1.5s; 
+ 
+}  
+.link > a:hover {
+  
+  background-color: black;
+  color: white ;
+   transition:1s ; 
+}
+
+.footer {
+  
+  text-align: center;
+}
+.footer > i {
+  
+  color:white;
+  font-size:20px;
+  
+}
+
+
+
+
+
+
